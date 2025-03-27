@@ -30,7 +30,7 @@ const data = [
 	{
 		id: 5,
 		name: "Darjeeling",
-		info: "Starting in the colorful port city of GdaÅ„sk, you'll escape the crowds and embrace the understated elegance of ready-for-prime-time Poland for 10 days. With an expert Rick Steves guide at your side, you'll experience mighty Malbork castle, the cobbly-cute village of ToruÅ„, Poland's contemporary capital of Warsaw, the spiritual Jasna GÃ³ra Monastery, and charming KrakÃ³w â€” Poland's finest city. In this land of surprises â€” so trendy and hip, yet steeped in history â€” there's so much to discover. Join us for the Best of Poland in 10 Days!",
+		info: "Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite, it remains the terminus of the narrow-gauge Darjeeling Himalayan Railway, or “Toy Train,” completed in 1881. It's famed for the distinctive black tea grown on plantations that dot its surrounding slopes.",
 		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tea_Estate%2C_Darjeeling.jpg/1200px-Tea_Estate%2C_Darjeeling.jpg",
 		price: "78,595",
 	},
@@ -48,6 +48,20 @@ const data = [
 		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kochi_Skyline.jpg/432px-Kochi_Skyline.jpg",
 		price: "68,595",
 	},
+	{
+		id: 8,
+		name: "Kerla",
+		info: "Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife.",
+		image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ55P1hOAQ0yHAuo2vXGURToSfzLuDDUVP5BA&s",
+		price: "78,980",
+	},
+	{
+		id: 9,
+		name: "Mahabaleshwar",
+		info: "Mahabaleshwar is a hill station in India's forested Western Ghats range, south of Mumbai. It features several elevated viewing points, such as Arthur’s Seat. West of here is centuries-old Pratapgad Fort, perched atop a mountain spur. East, Lingmala Waterfall tumbles off a sheer cliff.",
+		image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNF8q5bcubGQHQOvbgkOqW9rROQq9AFMyag&s",
+		price: "70,595",
+	}
 ];
 
 export default data;

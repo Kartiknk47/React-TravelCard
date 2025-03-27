@@ -1,63 +1,62 @@
-  body{
-      margin: 0;
-      padding: 0;
-      /* background-color: #0056b3; */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://www.solitarytraveller.com/wp-content/uploads/2020/11/solo_travelling_banner.jpg");
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
 
-  }
-  .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /* margin: 20px 20px; */
-    }
-    
-    .card {
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease-in-out;
-      width: 18rem;
-      /* margin-left: 150px; */
-    }
-    
-    .card:hover {
-      transform: scale(1.05);
-    }
-    
-    .card-img-top {
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-      height: 180px;
-    }
-    
-    .card-body {
-      text-align: center;
-      padding: 15px;
-    }
-    
-    .card-title {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #333;
-    }
-    
-    .card-text {
-      font-size: 1rem;
-      color: #666;
-    }
-    
-    .text-primary {
-      font-weight: bold;
-      color: #007bff;
-    }
-    
-    .btn-primary {
-      background-color: #007bff;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-    }
-    
-    .btn-primary:hover {
-      background-color: #0056b3;
-    }
-    
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 18rem;
+  height: 600px;
+  margin-top: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 180px;
+}
+
+.card-body {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.text-primary {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
